@@ -1,0 +1,13 @@
+server:
+  port: 10011
+spring:
+  application:
+    name: config-client
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+          - info
